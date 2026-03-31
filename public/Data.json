@@ -1,0 +1,103 @@
+[
+  {
+    
+    "id": 1,
+    "name": "Starter",
+    "description": "Perfect for beginners starting their journey.",
+    "price": "$85",
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["10+ templates", "Basic support", "Export to PDF"],
+    "icon":  "pro-icon.png"
+  },
+  {
+    "id": 2,
+    "name": "Basic",
+    "description": "Essential tools for individuals.",
+    "price": "$58",
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["25+ templates", "Email support", "Download options"],
+    "icon":  "pro-icon.png"
+  },
+  {
+    "id": 3,
+    "name": "Standard",
+    "description": "Balanced features for growing users.",
+    "price": "$65",
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["50+ templates", "ATS optimization", "Export to PDF & Word"],
+    "icon": "standard-icon.png"
+  },
+  {
+    "id": 4,
+    "name": "Pro",
+    "description": "Advanced tools for professionals.",
+    "price": "$85",
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["100+ templates", "Priority support", "Advanced editing"],
+    "icon": "pro-icon.png"
+  },
+  {
+    "id": 5,
+    "name": "Premium",
+    "description": "Full access to all premium features.",
+    "price": "$90",
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["Unlimited templates", "Team features", "Cloud storage"],
+    "icon": "premium-icon.png"
+  },
+  {
+    "id": 6,
+    "name": "Lifetime",
+    "description": "One-time payment for lifetime access.",
+    "price": "$120",
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["All features included", "Lifetime updates", "Premium support"],
+    "icon": "lifetime-icon.png"
+  },
+  {
+    "id": 7,
+    "name": "Business",
+    "description": "Designed for small businesses.",
+    "price": "$80",
+    "period": "yearly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Team collaboration", "Analytics dashboard", "Custom branding"],
+    "icon": "business-icon.png"
+  },
+  {
+    "id": 8,
+    "name": "Enterprise",
+    "description": "Scalable solution for large teams.",
+    "price": "$200",
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["Unlimited users", "Dedicated support", "Advanced security"],
+    "icon": "enterprise-icon.png"
+  },
+  {
+    "id": 9,
+    "name": "Student",
+    "description": "Affordable plan for students.",
+    "price": "$39",
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["20+ templates", "Basic editing", "PDF export"],
+    "icon": "student-icon.png"
+  }
+ 
+]
