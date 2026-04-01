@@ -7,7 +7,7 @@ const ModelCard = ({ cart, products, setProducts }) => {
   const handleCartAdded = () => {
     setIsAdded(true);
     setProducts([...products, cart]);
-    console.log(products);
+    
 
   };
 

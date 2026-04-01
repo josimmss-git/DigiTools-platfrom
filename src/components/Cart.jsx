@@ -3,7 +3,7 @@ import ModelCard from './ModelCard';
 
 const Cart = ({ dataPromise, products, setProducts }) => {
   const Carts = use(dataPromise);
-  console.log(Carts);
+ 
 
 
 

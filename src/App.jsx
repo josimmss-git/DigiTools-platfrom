@@ -18,7 +18,8 @@ const dataPromise=getData()
 
 function App() {
   const [activeTab, setActiveTab] = useState("cart");
- const [products, setProducts] = useState([])
+  const [products, setProducts] = useState([])
+
 
   return (
     <>
@@ -34,7 +35,7 @@ function App() {
         <input type="radio"
           name="my_tabs_1"
           className="tab rounded-full w-34"
-          aria-label="Cart"
+          aria-label={"Cart (" + products.length + ")"}
           onClick={() => setActiveTab("products")}
         />
         
@@ -45,9 +46,9 @@ function App() {
       
      {activeTab === "cart" && <Cart dataPromise={dataPromise} products={products} setProducts={setProducts} />}
 
-      {activeTab === "products" && <Products />}
+      {activeTab === "products" && <Products products={products} setProducts={setProducts} />}
     </>
   )
 }
 
-export default App
+export default App;
