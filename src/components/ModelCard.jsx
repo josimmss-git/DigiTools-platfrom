@@ -25,17 +25,20 @@ const ModelCard = ({ cart, products, setProducts }) => {
 
   return ( 
     
-    <div className='gap-4 p-4 bg-base-100 shadow-sm border border-gray-200 rounded-lg'>
-      <div>
+    <div className='p-4 bg-base-100 shadow-sm border border-gray-200 rounded-lg'>
+      <div className="flex flex-col gap-2">
+        <div className="py-4 flex justify-between">  <img src={cart.icon} alt={cart.icon} />
+          <p className="bg-gradient-to-r from-[#55f639d6] to-[#27186c64] text-white rounded-2xl p-2">{cart.tagType}</p> </div>
+        
         <h2 className='text-2xl font-bold'>{cart.name}</h2>
         <p className='text-[#627382]'>{cart.description}</p>
-        <p className='text-2xl font-bold'>{cart.price}</p>
-        <p>{cart.period}</p>
-        <p>{cart.tagType}</p>
-        <p>{cart.features}</p>
-        <img src={cart.icon} alt="" />
+        <p className='text-2xl font-bold'>{cart.price}/{cart.period}</p>
+        
+        <p>{cart.features.join(", ")}</p>
+      
+      
 
-          <button onClick={handleCartAdded} className='btn bg-gradient-to-r from-[#4F39F6] to-[#9514FA] py-2 px-15 border rounded-lg '>{isAdded ? 'Added' : 'Add to Cart'}</button>
+          <button onClick={handleCartAdded} className='btn bg-gradient-to-r from-[#4F39F6] to-[#9514FA] border rounded-lg '>{isAdded ? 'Added' : 'Add to Cart'}</button>
           
 
       </div>

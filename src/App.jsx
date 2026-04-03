@@ -5,6 +5,7 @@ import BannerTwo from './components/BannerTwo'
 import Cart from './components/Cart'
 import Products from './components/Products'
 import { useState } from 'react';
+import Footer from './components/Footer'  
 
 
 const getData = async () => {
@@ -27,7 +28,7 @@ function App() {
       <Banner />
       <BannerTwo />
       {/* name of each tab group should be unique */}
-<div className="tabs tabs-box justify-center w-10/12 mx-auto bg-transparant">
+  <div className="tabs tabs-box justify-center w-10/12 mx-auto bg-transparent">
         <input type="radio" name="my_tabs_1"
 
           className="tab rounded-full w-35"
@@ -47,13 +48,17 @@ function App() {
         
         
       </div>
+
+
      
       
      {activeTab === "cart" && <Cart dataPromise={dataPromise} products={products} setProducts={setProducts} />}
 
       {activeTab === "products" && <Products products={products} setProducts={setProducts} />}
+      <Footer />
     </>
   )
 }
 
 export default App;
+

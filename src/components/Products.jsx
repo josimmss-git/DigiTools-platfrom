@@ -26,13 +26,18 @@ const Products = ({ products, setProducts }) => {
 
         products.length === 0 ? <div className='bg-base-200 flex justify-center py-16 rounded-2xl '> <img className='w-10 ' src= {cart} alt= {cart} /> <p className='text-2xl'>  Cart is Empty</p></div> : <>
             {
-        products.map(cart => (
+            products.map(cart => (
+              <> 
+          
+       
          
            <div key={cart.id} className='p-4 
           border mb-3 flex justify-between items-center
            rounded-2xl bg-blue-400 text-white'>
-            <div className=''>
-              <h2 className='text-2xl font-bold'>
+                  <div className='flex gap-4 items-center'>
+                     <div><img src={cart.icon} alt={cart.icon} /></div>      
+         
+              <div><h2 className='text-2xl font-bold'>
               {cart.name}</h2>
             <p className='text-[#627382]'>
               {cart.description}</p>
@@ -42,13 +47,14 @@ const Products = ({ products, setProducts }) => {
             <p className='text-2xl font-bold'>
               {cart.price}
               
-            </p>
+            </p></div>
               
             </div>
             <div>
               <button onClick={() => handleRemove(cart)} className='text-red-500'>Remove</button>
             </div>
-          </div>
+                </div>
+                </>
 
           
         ))

@@ -8,8 +8,9 @@
     "period": "monthly",
     "tag": "new",
     "tagType": "new",
+    "ok" :"https://i.ibb.co.com/20QgM6bT/ok.png",
     "features": ["10+ templates", "Basic support", "Export to PDF"],
-    "icon":  "pro-icon.png"
+    "icon":  "https://i.ibb.co.com/cXspPysQ/design-tool.png"
   },
   {
     "id": 2,
@@ -19,8 +20,9 @@
     "period": "monthly",
     "tag": "popular",
     "tagType": "popular",
+    "ok" :"https://i.ibb.co.com/20QgM6bT/ok.png",
     "features": ["25+ templates", "Email support", "Download options"],
-    "icon":  "pro-icon.png"
+    "icon":  "https://i.ibb.co.com/DPdWsxG1/operation.png"
   },
   {
     "id": 3,
@@ -30,8 +32,9 @@
     "period": "monthly",
     "tag": "best seller",
     "tagType": "best seller",
+    "ok" :"https://i.ibb.co.com/20QgM6bT/ok.png",
     "features": ["50+ templates", "ATS optimization", "Export to PDF & Word"],
-    "icon": "standard-icon.png"
+    "icon": "https://i.ibb.co.com/yFJkkn9L/portfolio.png"
   },
   {
     "id": 4,
@@ -41,8 +44,9 @@
     "period": "monthly",
     "tag": "popular",
     "tagType": "popular",
+    "ok" :"https://i.ibb.co.com/20QgM6bT/ok.png",
     "features": ["100+ templates", "Priority support", "Advanced editing"],
-    "icon": "pro-icon.png"
+    "icon": "https://i.ibb.co.com/Q73TNDg5/social-media.png"
   },
   {
     "id": 5,
@@ -52,8 +56,9 @@
     "period": "monthly",
     "tag": "best seller",
     "tagType": "best seller",
+    "ok" :"https://i.ibb.co.com/20QgM6bT/ok.png",
     "features": ["Unlimited templates", "Team features", "Cloud storage"],
-    "icon": "premium-icon.png"
+    "icon": "https://i.ibb.co.com/jkL0M2rs/writing-2327400-1.png"
   },
   {
     "id": 6,
@@ -63,8 +68,9 @@
     "period": "one-time",
     "tag": "new",
     "tagType": "new",
+    "ok" :"https://i.ibb.co.com/20QgM6bT/ok.png",
     "features": ["All features included", "Lifetime updates", "Premium support"],
-    "icon": "lifetime-icon.png"
+    "icon": "https://i.ibb.co.com/jkL0M2rs/writing-2327400-1.png"
   },
   {
     "id": 7,
@@ -74,8 +80,9 @@
     "period": "yearly",
     "tag": "popular",
     "tagType": "popular",
+    "ok" :"https://i.ibb.co.com/20QgM6bT/ok.png",
     "features": ["Team collaboration", "Analytics dashboard", "Custom branding"],
-    "icon": "business-icon.png"
+    "icon": "https://i.ibb.co.com/cXspPysQ/design-tool.png"
   },
   {
     "id": 8,
@@ -85,8 +92,9 @@
     "period": "yearly",
     "tag": "best seller",
     "tagType": "best seller",
+    "ok" :"https://i.ibb.co.com/20QgM6bT/ok.png",
     "features": ["Unlimited users", "Dedicated support", "Advanced security"],
-    "icon": "enterprise-icon.png"
+    "icon":"https://i.ibb.co.com/DPdWsxG1/operation.png"
   },
   {
     "id": 9,
@@ -96,8 +104,9 @@
     "period": "monthly",
     "tag": "new",
     "tagType": "new",
+    "ok" :"https://i.ibb.co.com/20QgM6bT/ok.png",
     "features": ["20+ templates", "Basic editing", "PDF export"],
-    "icon": "student-icon.png"
+    "icon": "https://i.ibb.co.com/cXspPysQ/design-tool.png"
   }
  
 ]
