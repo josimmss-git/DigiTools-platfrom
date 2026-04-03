@@ -27,14 +27,19 @@ function App() {
       <Banner />
       <BannerTwo />
       {/* name of each tab group should be unique */}
-<div className="tabs tabs-box justify-center w-10/12 mx-auto bg-transparent">
-        <input type="radio" name="my_tabs_1" className="tab rounded-full w-35" aria-label="Products"
+<div className="tabs tabs-box justify-center w-10/12 mx-auto bg-transparant">
+        <input type="radio" name="my_tabs_1"
+
+          className="tab rounded-full w-35"
+          aria-label="Products"
            onClick={() => setActiveTab("cart")}
         defaultChecked />
         
         <input type="radio"
           name="my_tabs_1"
-          className="tab rounded-full w-34"
+
+          className="tab rounded-full w-35"
+          
           aria-label={"Cart (" + products.length + ")"}
           onClick={() => setActiveTab("products")}
         />
