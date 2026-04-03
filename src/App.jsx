@@ -5,7 +5,10 @@ import BannerTwo from './components/BannerTwo'
 import Cart from './components/Cart'
 import Products from './components/Products'
 import { useState } from 'react';
-import Footer from './components/Footer'  
+import Footer from './components/Footer' 
+import Getstart from './components/Getstart'
+import Pricing from './components/Pricing' 
+
 
 
 const getData = async () => {
@@ -55,6 +58,9 @@ function App() {
      {activeTab === "cart" && <Cart dataPromise={dataPromise} products={products} setProducts={setProducts} />}
 
       {activeTab === "products" && <Products products={products} setProducts={setProducts} />}
+
+      <Getstart />
+     <Pricing />
       <Footer />
     </>
   )
