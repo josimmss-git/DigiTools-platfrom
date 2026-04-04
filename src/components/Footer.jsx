@@ -108,7 +108,10 @@ const Footer = () => {
 
           <div className="flex gap-6">
             <a href="#" className="hover:text-red-400 transition gap-3 flex items-center">
-            <p>Privacy</p>  <p>Policy</p>     <p>  Terms of Service</p>    <p>Cookies</p>        
+              <p>Privacy</p>
+              <p>Policy</p>
+              <p> Terms of Service</p>
+              <p>Cookies</p>        
             </a>
           </div>
         </div>

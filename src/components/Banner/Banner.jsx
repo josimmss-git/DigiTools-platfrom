@@ -6,7 +6,7 @@ const Banner = () => {
   return (
 
     <section>
-      <div className='banner flex justify-space-between items-center gap-4  w-10/12 mx-auto py-10'>
+      <div className='banner grid sm:grid-cols-1 md:grid-cols-2 justify-between items-center gap-4 w-10/12 mx-auto py-10'>
         
         <div className='banner-content grid grid-cols-1 gap-4'>
           
@@ -18,7 +18,7 @@ const Banner = () => {
             Explore Products
         </p>
         
-        <div className='flex gap-2 font-bold p-2'>
+        <div className='flex gap-2 font-bold p-2' style={{ cursor: "pointer" }}>
          <button className='bg-blue-500 text-white py-2 px-4 rounded-2xl'>Explore Products</button>
         
           <div className='flex border 2px solid to-blue-500 rounded-2xl gap-2 items-center p-2'>

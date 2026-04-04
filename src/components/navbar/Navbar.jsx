@@ -8,7 +8,7 @@ const Navbar = () => {
 
         
         
-      <div className="navbar bg-base-100 shadow-sm flex items-center justify-between p-7">
+      <div className="navbar bg-base-100 shadow-sm grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 text-end mx-auto justify-between p-7">
         
    
         
@@ -19,7 +19,7 @@ const Navbar = () => {
  
       <div className="nav-menu">
         
-            <ul className='flex gap-4 mx-auto'>
+            <ul className='flex gap-4 mx-auto' style={{ cursor: "pointer" }} >
 
               <li><a>Products</a></li>
               <li><a>Features</a></li>
@@ -35,9 +35,19 @@ const Navbar = () => {
  
           <div className="navbar-end gap-2">
             <img src={cart} alt="Cart" />
-     <button>Login</button>
-            <button>Get Started
-     </button>
+ <button
+ 
+  className="cursor-pointer"
+>
+  Login
+</button>
+            
+     <button
+  className="bg-gradient-to-r from-[#55f639d6] to-[#27186c64] text-white rounded-3xl p-3"
+  style={{ cursor: "pointer" }}
+>
+  Get Started
+</button>
   </div>
 
 

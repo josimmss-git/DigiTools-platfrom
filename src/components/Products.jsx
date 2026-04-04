@@ -51,7 +51,7 @@ const Products = ({ products, setProducts }) => {
               
             </div>
             <div>
-              <button onClick={() => handleRemove(cart)} className='text-red-500'>Remove</button>
+              <button onClick={() => handleRemove(cart)} className='text-red-500'style={{ cursor: "pointer" }}>Remove</button>
             </div>
                 </div>
                 </>
